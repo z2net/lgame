@@ -1,0 +1,15 @@
+# .agentignore: paths the agent must not touch.
+# Pattern syntax matches .gitignore: *, **, dir/, ! negation, # comments.
+# Sensitive entries should also live in .gitignore: history is outside this guard.
+# Examples (commented out):
+# secrets/
+# *.key
+# .env
+# /local-notes/
+
+.env
+node_modules/
+taget/
+.agentignore
+dist/
+build/
